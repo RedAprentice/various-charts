@@ -112,6 +112,24 @@
         <mxCell id="--aS6HFymE6pt2y8sUeW-1" value="Products (Bottles, Caps, Rings, Etc)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
           <mxGeometry x="960" y="220" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="--aS6HFymE6pt2y8sUeW-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lFg5RGwQUWsRu9tcdrmq-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="360" as="sourcePoint" />
+            <mxPoint x="400" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="--aS6HFymE6pt2y8sUeW-6" value="Central Unit" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="550" width="350" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="--aS6HFymE6pt2y8sUeW-8" value="Web Server" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="--aS6HFymE6pt2y8sUeW-6">
+          <mxGeometry x="20" y="125" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="--aS6HFymE6pt2y8sUeW-9" value="&lt;div&gt;Postgres&lt;/div&gt;&lt;div&gt;DB&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="--aS6HFymE6pt2y8sUeW-6">
+          <mxGeometry x="135" y="125" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="--aS6HFymE6pt2y8sUeW-10" value="Redis&lt;br&gt;Server" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="--aS6HFymE6pt2y8sUeW-6">
+          <mxGeometry x="250" y="125" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
